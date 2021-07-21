@@ -1,0 +1,83 @@
+<title>WebHook sender</title>
+<link type="text/css" rel="stylesheet" href="main.css">
+<script src="send.js"></script>
+<script src="toggle.js"></script>
+</head>
+<body bgcolor="#23272A" id="body">
+<div class="left" id="left_side">
+<strong class="head">Main</strong>
+<br>
+<div class="toggle">
+<h3>Toggle embed</h3>
+<label class="container"><input type="checkbox" id="field_toggle" onclick="toggle()"><span class="checkmark"></span></label>
+</div>
+<br><br>
+<h3>Webhook</h3>
+<input class="input" id="url" type="text" name="link" placeholder="Webhook url">
+<h3>Username</h3>
+<input class="input" id="name" type="text" name="Username (nick of hook)" placeholder="nickname of the webhook">
+<h3>Avatar</h3>
+<input class="input" id="avatar" type="text" name="Avatar of bot" placeholder="image for the webhook avatar">
+<h3>Text</h3>
+<input class="input" id="content" type="text" name="msg content" placeholder="message for the webhook to send outside the embed">
+<button id="send" class="button is-primary" onclick="send()">Send</button>
+</div>
+<div class="embed" id="embed">
+<strong class="head">Embed</strong>
+<br>
+<br><br>
+<h3>Title</h3>
+<input class="input" id="title" type="text" name="title" placeholder="title">
+<h3>Title URL</h3>
+<input class="input" id="title_link" type="text" name="title_link" placeholder="title url ex: https://google.com">
+<h3>Author</h3>
+<input class="input" id="author_name" type="text" name="author name" placeholder="embed author name">
+<h3>Author Icon</h3>
+<input class="input" id="author_icon" type="text" name="author Avatar URL" placeholder="embed author avatar">
+<h3>Author Link</h3>
+<input class="input" id="author_link" type="text" name="author URL" placeholder="author link">
+<h3>Sidebar Color</h3>
+<input class="input" id="color" type="text" name="hex color" placeholder="#123456">
+<h3>Footer</h3>
+<input class="input" id="footer" type="text" name="footers" placeholder="embed footer">
+<h3>Footer icon</h3>
+<input class="input" id="footer_icon" type="text" name="footer_icons" placeholder="embed footer icon">
+<br><br>
+<strong class="head">Fields</strong>
+<br>
+<br><br>
+<strong>First field</strong> <label class="container"><input type="checkbox" id="field1"><span class="checkmark"></span></label>
+<h3>First field title</h3><h1>Short</h1>
+<input class="input" id="embed_title1" type="text" name="embed_title1" placeholder="First field title">
+<h3>First field text</h3>
+<input class="input" id="embed_content1" type="text" name="embed_content1" placeholder="First field text">
+<strong>Seond field</strong> <label class="container"><input type="checkbox" id="field2"><span class="checkmark"></span></label>
+<h3>Second field title</h3><h1>Short</h1>
+<input class="input" id="embed_title2" type="text" name="embed_title2" placeholder="Second field title">
+<h3>Second field text</h3>
+<input class="input" id="embed_content2" type="text" name="embed_content2" placeholder="Second field text">
+<strong>Third field</strong> <label class="container"><input type="checkbox" id="field3"><span class="checkmark"></span></label>
+<h3>Third field text</h3><h1>Short</h1>
+<input class="input" id="embed_title3" type="text" name="embed_title3" placeholder="Third field title">
+<h3>Third field text</h3>
+<input class="input" id="embed_content3" type="text" name="embed_content3" placeholder="Third field text">
+<strong>Fourth field</strong> <label class="container"><input type="checkbox" id="field4"><span class="checkmark"></span></label>
+<h3>Fourth field title</h3><h1>Short</h1>
+<input class="input" id="embed_title4" type="text" name="embed_title4" placeholder="Fourth field title">
+<h3>Fourth field text</h3>
+<input class="input" id="embed_content4" type="text" name="embed_content4" placeholder="Fourth field text">
+<h3>Thumbnail</h3>
+<input class="input" id="thumb" type="text" name="thumb" placeholder="Thumbnail">
+<h3>Image</h3>
+<input class="input" id="image" type="text" name="image" placeholder="Image to be included in the message">
+<button id="send" class="button is-primary" onclick="send()">Send</button>
+</div>
+<br><br>
+<br><br>
+<div class="footer">
+<center><a>Mobile version available </a><a href="https://epoktarren.github.io/discordWebhookSender/mobile.html">here!</a></center>
+<center><h4>Client made by @Tarren#9722</h4></center>
+<center><a>Report any issues on the github project page</a><a href="https://github.com/EpokTarren/discordWebhookSender">here!</a></center>
+</div>
+</body>
+</html>
